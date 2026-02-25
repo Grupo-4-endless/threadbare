@@ -618,6 +618,43 @@ texture_region_size = Vector2i(64, 64)
 3:3/0/terrain = 9
 3:3/0/physics_layer_2/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6gggm"]
+load_path = "res://.godot/imported/Objetos_de_casa.png-028f5bb4545f1fcb4a1f5e3b84600102.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jj324"]
+texture = SubResource("CompressedTexture2D_6gggm")
+texture_region_size = Vector2i(100, 88)
+0:0/0 = 0
+0:1/0 = 0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mrcn8"]
+load_path = "res://.godot/imported/Exterior_de_casa.png-01a7d8b9d15bea829be93858aa43bb9b.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5o8dm"]
+texture = SubResource("CompressedTexture2D_mrcn8")
+texture_region_size = Vector2i(67, 68)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_d371t"]
+load_path = "res://.godot/imported/Partes_de_casa.png-d0ca6f4bad27d60eaec4075bd6b39e8f.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_abg45"]
+texture = SubResource("CompressedTexture2D_d371t")
+texture_region_size = Vector2i(111, 157)
+use_texture_padding = false
+0:0/0 = 0
+0:1/0 = 0
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qml6a"]
 texture = ExtResource("7_jrttl")
 texture_region_size = Vector2i(64, 64)
@@ -1445,6 +1482,9 @@ sources/10 = SubResource("TileSetAtlasSource_6jiih")
 sources/11 = SubResource("TileSetAtlasSource_qpeek")
 sources/12 = SubResource("TileSetAtlasSource_qhdiu")
 sources/13 = SubResource("TileSetAtlasSource_em2qm")
+sources/14 = SubResource("TileSetAtlasSource_jj324")
+sources/15 = SubResource("TileSetAtlasSource_5o8dm")
+sources/16 = SubResource("TileSetAtlasSource_abg45")
 pattern_0 = SubResource("TileMapPattern_0wfyh")
 pattern_1 = SubResource("TileMapPattern_sugp2")
 pattern_2 = SubResource("TileMapPattern_jyhfs")
