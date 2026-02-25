@@ -59,7 +59,7 @@ tile_map_data = PackedByteArray("AAAFAAQABAAAAAIAAAAFAAUABAAAAAMAAAAGAAQABAABAAQ
 tile_set = ExtResource("3_psqug")
 
 [node name="Player" parent="." unique_id=1079296690 instance=ExtResource("4_t0485")]
-position = Vector2(131, 463)
+position = Vector2(132, 464)
 sprite_frames = ExtResource("5_qr0ur")
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1196891219]
