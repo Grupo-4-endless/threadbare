@@ -2,7 +2,6 @@
 
 [ext_resource type="Texture2D" uid="uid://c0itxt8w3yml0" path="res://assets/first_party/templates/player/NO_EDIT_player_attack_01.png" id="1_wtqr8"]
 [ext_resource type="Texture2D" uid="uid://covbt3em3ppm1" path="res://assets/first_party/templates/player/NO_EDIT_player_attack_02.png" id="2_eysa5"]
-[ext_resource type="Texture2D" uid="uid://c2u6fr6s80spc" path="res://scenes/quests/story_quests/amor_y_garras/player_components/ChatGPT_Image_25_feb_2026__12_46_25-removebg-preview.png" id="3_xiqq3"]
 [ext_resource type="Texture2D" uid="uid://h7nu5n3bcih1" path="res://scenes/quests/story_quests/amor_y_garras/player_components/image__3___1___1_-removebg-preview.png" id="4_xiqq3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yg72c"]
@@ -38,47 +37,36 @@ atlas = ExtResource("2_eysa5")
 region = Rect2(576, 0, 192, 192)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wtqr8"]
-atlas = ExtResource("3_xiqq3")
 region = Rect2(0, 0, 153, 136)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eysa5"]
-atlas = ExtResource("3_xiqq3")
 region = Rect2(153, 0, 153, 136)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ix307"]
-atlas = ExtResource("3_xiqq3")
 region = Rect2(306, 0, 153, 136)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_w5vjx"]
-atlas = ExtResource("3_xiqq3")
 region = Rect2(459, 0, 153, 136)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7xr0u"]
-atlas = ExtResource("3_xiqq3")
 region = Rect2(0, 136, 153, 136)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5f650"]
-atlas = ExtResource("3_xiqq3")
 region = Rect2(153, 136, 153, 136)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h8lhe"]
-atlas = ExtResource("3_xiqq3")
 region = Rect2(306, 136, 153, 136)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a1kxp"]
-atlas = ExtResource("3_xiqq3")
 region = Rect2(459, 136, 153, 136)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7r5c3"]
-atlas = ExtResource("3_xiqq3")
 region = Rect2(0, 272, 153, 136)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dxasl"]
-atlas = ExtResource("3_xiqq3")
 region = Rect2(153, 272, 153, 136)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vpyw2"]
-atlas = ExtResource("3_xiqq3")
 region = Rect2(306, 272, 153, 136)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_d3pqc"]
