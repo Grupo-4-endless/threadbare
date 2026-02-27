@@ -6,8 +6,11 @@
 [ext_resource type="Texture2D" uid="uid://td3y2vjom24f" path="res://assets/first_party/tiles/Void_Tiles_Stars_Level3.png" id="4_n6ujp"]
 [ext_resource type="Texture2D" uid="uid://brnsfo2pejt7i" path="res://assets/first_party/tiles/Void_Tiles_Stars_Level4.png" id="5_3n2ya"]
 [ext_resource type="Texture2D" uid="uid://d0156jkhip32" path="res://assets/first_party/tiles/Void_Tiles_Chromakey.png" id="6_2tc2r"]
+[ext_resource type="Texture2D" uid="uid://c4wcm5rxta3yu" path="res://scenes/quests/story_quests/amor_y_garras/Partes_de_casa.png" id="7_5o8dm"]
 [ext_resource type="Texture2D" uid="uid://cexg7otw5enpu" path="res://assets/third_party/tiny-swords/Terrain/Water/Foam/Foam.png" id="7_jrttl"]
+[ext_resource type="Texture2D" uid="uid://bbtmjiphexs8t" path="res://scenes/quests/story_quests/amor_y_garras/Objetos_de_casa.png" id="8_d371t"]
 [ext_resource type="Texture2D" uid="uid://cnmmh3uq7rkla" path="res://assets/third_party/tiny-swords/Terrain/Bridge/Bridge_All.png" id="8_l7ccs"]
+[ext_resource type="Texture2D" uid="uid://chbsayvpn5s8t" path="res://scenes/quests/story_quests/amor_y_garras/Exterior_de_casa.png" id="9_abg45"]
 [ext_resource type="Texture2D" uid="uid://c7oht7wudd8wa" path="res://assets/first_party/tiles/Cliff_Tiles.png" id="9_oo1jb"]
 [ext_resource type="Texture2D" uid="uid://pkm6smjl8861" path="res://assets/first_party/tiles/Grass_Tiles_Light.png" id="10_as8ig"]
 [ext_resource type="Texture2D" uid="uid://dcq6v7mx3h1fl" path="res://assets/first_party/tiles/Dirt_Tiles.png" id="11_rryk7"]
@@ -618,43 +621,6 @@ texture_region_size = Vector2i(64, 64)
 3:3/0/terrain = 9
 3:3/0/physics_layer_2/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6gggm"]
-load_path = "res://.godot/imported/Objetos_de_casa.png-028f5bb4545f1fcb4a1f5e3b84600102.ctex"
-
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jj324"]
-texture = SubResource("CompressedTexture2D_6gggm")
-texture_region_size = Vector2i(100, 88)
-0:0/0 = 0
-0:1/0 = 0
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mrcn8"]
-load_path = "res://.godot/imported/Exterior_de_casa.png-01a7d8b9d15bea829be93858aa43bb9b.ctex"
-
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5o8dm"]
-texture = SubResource("CompressedTexture2D_mrcn8")
-texture_region_size = Vector2i(67, 68)
-0:0/0 = 0
-1:0/0 = 0
-0:1/0 = 0
-1:1/0 = 0
-2:1/0 = 0
-0:2/0 = 0
-1:2/0 = 0
-2:2/0 = 0
-0:3/0 = 0
-1:3/0 = 0
-2:3/0 = 0
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_d371t"]
-load_path = "res://.godot/imported/Partes_de_casa.png-d0ca6f4bad27d60eaec4075bd6b39e8f.ctex"
-
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_abg45"]
-texture = SubResource("CompressedTexture2D_d371t")
-texture_region_size = Vector2i(111, 157)
-use_texture_padding = false
-0:0/0 = 0
-0:1/0 = 0
-
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qml6a"]
 texture = ExtResource("7_jrttl")
 texture_region_size = Vector2i(64, 64)
@@ -731,6 +697,194 @@ texture_region_size = Vector2i(64, 64)
 1:1/0/terrains_peering_bit/bottom_side = 3
 1:1/0/terrains_peering_bit/left_side = 3
 1:1/0/terrains_peering_bit/top_side = 3
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jhaob"]
+texture = ExtResource("8_d371t")
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+0:2/size_in_atlas = Vector2i(2, 2)
+0:2/0 = 0
+0:0/size_in_atlas = Vector2i(1, 2)
+0:0/0 = 0
+1:0/size_in_atlas = Vector2i(1, 2)
+1:0/0 = 0
+2:0/size_in_atlas = Vector2i(1, 2)
+2:0/0 = 0
+3:2/0 = 0
+4:2/size_in_atlas = Vector2i(2, 2)
+4:2/0 = 0
+4:4/size_in_atlas = Vector2i(2, 1)
+4:4/0 = 0
+4:5/size_in_atlas = Vector2i(1, 2)
+4:5/0 = 0
+5:6/0 = 0
+5:5/0 = 0
+3:3/size_in_atlas = Vector2i(1, 2)
+3:3/0 = 0
+4:1/0 = 0
+4:0/0 = 0
+5:0/size_in_atlas = Vector2i(1, 2)
+5:0/0 = 0
+4:7/size_in_atlas = Vector2i(2, 2)
+4:7/0 = 0
+4:9/size_in_atlas = Vector2i(2, 2)
+4:9/0 = 0
+2:9/size_in_atlas = Vector2i(1, 2)
+2:9/0 = 0
+3:9/size_in_atlas = Vector2i(1, 2)
+3:9/0 = 0
+1:9/0 = 0
+0:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+0:5/size_in_atlas = Vector2i(1, 2)
+0:5/0 = 0
+1:5/size_in_atlas = Vector2i(1, 2)
+1:5/0 = 0
+2:5/size_in_atlas = Vector2i(1, 2)
+2:5/0 = 0
+3:5/size_in_atlas = Vector2i(1, 2)
+3:5/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f41ed"]
+texture = ExtResource("7_5o8dm")
+0:0/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+4:1/0 = 0
+3:1/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+6:1/0 = 0
+6:2/0 = 0
+6:3/0 = 0
+5:3/0 = 0
+5:2/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+4:4/0 = 0
+3:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+0:2/0 = 0
+0:1/0 = 0
+1:0/0 = 0
+1:1/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+2:3/0 = 0
+1:3/0 = 0
+0:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+1:6/0 = 0
+0:6/0 = 0
+2:6/0 = 0
+2:7/0 = 0
+1:7/0 = 0
+0:7/0 = 0
+0:8/0 = 0
+0:9/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+5:9/0 = 0
+4:9/0 = 0
+3:9/0 = 0
+2:9/0 = 0
+1:9/0 = 0
+3:7/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jmksi"]
+texture = ExtResource("9_abg45")
+0:1/0 = 0
+1:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+5:3/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+7:5/size_in_atlas = Vector2i(1, 2)
+7:5/0 = 0
+8:5/size_in_atlas = Vector2i(1, 2)
+8:5/0 = 0
+7:4/size_in_atlas = Vector2i(2, 1)
+7:4/0 = 0
+6:2/size_in_atlas = Vector2i(2, 2)
+6:2/0 = 0
+6:7/size_in_atlas = Vector2i(3, 3)
+6:7/0 = 0
+9:7/size_in_atlas = Vector2i(3, 3)
+9:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+5:8/0 = 0
+4:8/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+3:10/size_in_atlas = Vector2i(3, 3)
+3:10/0 = 0
+0:12/0 = 0
+0:13/0 = 0
+1:13/0 = 0
+1:12/0 = 0
+2:12/0 = 0
+2:10/size_in_atlas = Vector2i(1, 2)
+2:10/0 = 0
+0:10/0 = 0
+0:11/0 = 0
+1:10/0 = 0
+1:11/0 = 0
+0:14/size_in_atlas = Vector2i(3, 2)
+0:14/0 = 0
+0:9/0 = 0
+0:8/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+2:8/0 = 0
+2:9/0 = 0
+1:9/0 = 0
+1:8/0 = 0
+10:15/size_in_atlas = Vector2i(2, 2)
+10:15/0 = 0
+3:14/0 = 0
+4:14/0 = 0
+5:14/0 = 0
+6:14/0 = 0
+3:15/0 = 0
+4:15/0 = 0
+5:15/0 = 0
+6:15/0 = 0
+7:15/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jmclm"]
 texture = ExtResource("8_l7ccs")
@@ -1438,7 +1592,7 @@ texture_region_size = Vector2i(64, 64)
 3:3/0/physics_layer_2/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
 
 [resource]
-tile_size = Vector2i(64, 64)
+tile_size = Vector2i(64, 68)
 occlusion_layer_0/light_mask = 1
 physics_layer_0/collision_layer = 16
 physics_layer_0/collision_mask = 0
@@ -1482,9 +1636,9 @@ sources/10 = SubResource("TileSetAtlasSource_6jiih")
 sources/11 = SubResource("TileSetAtlasSource_qpeek")
 sources/12 = SubResource("TileSetAtlasSource_qhdiu")
 sources/13 = SubResource("TileSetAtlasSource_em2qm")
-sources/14 = SubResource("TileSetAtlasSource_jj324")
-sources/15 = SubResource("TileSetAtlasSource_5o8dm")
-sources/16 = SubResource("TileSetAtlasSource_abg45")
+sources/24 = SubResource("TileSetAtlasSource_jhaob")
+sources/25 = SubResource("TileSetAtlasSource_f41ed")
+sources/26 = SubResource("TileSetAtlasSource_jmksi")
 pattern_0 = SubResource("TileMapPattern_0wfyh")
 pattern_1 = SubResource("TileMapPattern_sugp2")
 pattern_2 = SubResource("TileMapPattern_jyhfs")

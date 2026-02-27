@@ -66,8 +66,8 @@ alpha_curve = SubResource("CurveTexture_j0tly")
 anim_speed_min = 1.0
 anim_speed_max = 1.0
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3vyb7"]
-height = 42.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4nivu"]
+size = Vector2(52.999985, 44.999992)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_blfj0"]
 size = Vector2(110, 80)
@@ -550,15 +550,17 @@ script = ExtResource("3_j0tly")
 
 [node name="PlayerSprite" type="AnimatedSprite2D" parent="." unique_id=1785485617]
 unique_name_in_owner = true
-position = Vector2(0, -17)
+position = Vector2(0, -29.000002)
+scale = Vector2(0.748366, 0.8602941)
 sprite_frames = ExtResource("2_blfj0")
 animation = &"idle"
 autoplay = "idle"
 script = ExtResource("3_qlg0r")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=874691694]
+position = Vector2(-1.4999914, -8.500016)
 rotation = -1.5708
-shape = SubResource("CapsuleShape2D_3vyb7")
+shape = SubResource("RectangleShape2D_4nivu")
 
 [node name="PlayerInteraction" type="Node2D" parent="." unique_id=1260226520]
 unique_name_in_owner = true
