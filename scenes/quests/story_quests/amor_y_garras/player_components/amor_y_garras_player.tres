@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://c0itxt8w3yml0" path="res://assets/first_party/templates/player/NO_EDIT_player_attack_01.png" id="1_d3pqc"]
 [ext_resource type="Texture2D" uid="uid://covbt3em3ppm1" path="res://assets/first_party/templates/player/NO_EDIT_player_attack_02.png" id="2_d2erp"]
-[ext_resource type="Texture2D" uid="uid://c2u6fr6s80spc" path="res://scenes/quests/story_quests/amor_y_garras/player_components/ChatGPT_Image_25_feb_2026__12_46_25-removebg-preview.png" id="3_rmjuu"]
+[ext_resource type="Texture2D" uid="uid://5hvtstn604jx" path="res://scenes/quests/story_quests/amor_y_garras/player_components/gato derrotado.png" id="3_rmjuu"]
 [ext_resource type="Texture2D" uid="uid://h7nu5n3bcih1" path="res://scenes/quests/story_quests/amor_y_garras/player_components/image__3___1___1_-removebg-preview.png" id="5_d3pqc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yg72c"]
@@ -39,47 +39,15 @@ region = Rect2(576, 0, 192, 192)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_d2erp"]
 atlas = ExtResource("3_rmjuu")
-region = Rect2(0, 0, 153, 136)
+region = Rect2(153, 0, 153, 149)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dxnb4"]
 atlas = ExtResource("3_rmjuu")
-region = Rect2(153, 0, 153, 136)
+region = Rect2(306, 0, 153, 149)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_14esn"]
 atlas = ExtResource("3_rmjuu")
-region = Rect2(306, 0, 153, 136)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_mws7p"]
-atlas = ExtResource("3_rmjuu")
-region = Rect2(459, 0, 153, 136)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_elopk"]
-atlas = ExtResource("3_rmjuu")
-region = Rect2(0, 136, 153, 136)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_2yhxu"]
-atlas = ExtResource("3_rmjuu")
-region = Rect2(153, 136, 153, 136)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_28goa"]
-atlas = ExtResource("3_rmjuu")
-region = Rect2(306, 136, 153, 136)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_5h5l5"]
-atlas = ExtResource("3_rmjuu")
-region = Rect2(459, 136, 153, 136)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_igktx"]
-atlas = ExtResource("3_rmjuu")
-region = Rect2(0, 272, 153, 136)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_hxnth"]
-atlas = ExtResource("3_rmjuu")
-region = Rect2(0, 272, 153, 136)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_xp2ve"]
-atlas = ExtResource("3_rmjuu")
-region = Rect2(153, 272, 153, 136)
+region = Rect2(459, 0, 153, 149)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_d3pqc"]
 atlas = ExtResource("5_d3pqc")
@@ -190,30 +158,6 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_14esn")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_mws7p")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_elopk")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_2yhxu")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_28goa")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_5h5l5")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_igktx")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_hxnth")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_xp2ve")
 }],
 "loop": true,
 "name": &"defeated",
