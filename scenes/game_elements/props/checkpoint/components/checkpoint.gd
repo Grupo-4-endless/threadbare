@@ -45,7 +45,7 @@ func _set_sprite_frames(new_sprite_frames: SpriteFrames) -> void:
 		return
 	if new_sprite_frames == null:
 		new_sprite_frames = DEFAULT_SPRITE_FRAMES
-	sprite.sprite_frames = new_sprite_frames
+ 	sprite.sprite_frames = new_sprite_frames
 	update_configuration_warnings()
 
 
