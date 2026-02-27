@@ -278,8 +278,7 @@ height = 28.0
 script = ExtResource("1_7ff3m")
 
 [node name="InteractArea" parent="." unique_id=1327503985 instance=ExtResource("6_j0enh")]
-interact_label_position = Vector2(0, -71)
-action = "Collect"
+outro_scene = "uid://cu68u2e4lh01e"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InteractArea" unique_id=1121983883]
 shape = SubResource("CircleShape2D_ghwae")

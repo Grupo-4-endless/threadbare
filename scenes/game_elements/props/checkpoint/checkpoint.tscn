@@ -19,9 +19,9 @@ script = ExtResource("2_s5d1s")
 
 [node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=422090831]
 unique_name_in_owner = true
-position = Vector2(0, -40)
+position = Vector2(51, -5)
 sprite_frames = ExtResource("4_3xcwf")
-animation = &"idle"
+animation = &"appear"
 autoplay = "idle"
 
 [node name="InteractArea" parent="." unique_id=2037902510 instance=ExtResource("4_cukws")]
