@@ -885,6 +885,12 @@ texture = ExtResource("9_abg45")
 5:15/0 = 0
 6:15/0 = 0
 7:15/0 = 0
+0:0/0 = 0
+1:6/0 = 0
+0:6/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+2:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jmclm"]
 texture = ExtResource("8_l7ccs")
