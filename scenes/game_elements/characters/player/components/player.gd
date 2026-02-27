@@ -35,7 +35,7 @@ const OPTIONAL_ANIMATION_FRAMES: Dictionary[StringName, int] = {
 	&"run": 6,
 }
 
-const DEFAULT_SPRITE_FRAME: SpriteFrames = preload("uid://vwf8e1v8brdp")
+const DEFAULT_SPRITE_FRAME: SpriteFrames = null
 
 ## The character's name. This is used to highlight when the player's character
 ## is speaking during dialogue.
