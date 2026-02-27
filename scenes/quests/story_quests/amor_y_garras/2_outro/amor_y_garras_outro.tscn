@@ -4,7 +4,7 @@
 [ext_resource type="TileSet" uid="uid://df1hpo5uo78yi" path="res://scenes/quests/story_quests/amor_y_garras/tiles/amor_y_garras_exterior_floors.tres" id="2_6ca8q"]
 [ext_resource type="SpriteFrames" uid="uid://qnvhw5cjmbln" path="res://scenes/quests/story_quests/amor_y_garras/player_components/amor_y_garras_player.tres" id="3_g2igw"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="4_ywuvk"]
-[ext_resource type="Resource" uid="uid://c4uaxffa581ei" path="res://scenes/quests/story_quests/amor_y_garras/4_outro/outro_components/amor_y_garras_outro.dialogue" id="5_44pxi"]
+[ext_resource type="Resource" uid="uid://c4uaxffa581ei" path="res://scenes/quests/story_quests/amor_y_garras/2_outro/outro_components/amor_y_garras_outro.dialogue" id="5_44pxi"]
 
 [node name="AmorYGarrasOutro" type="Node2D" unique_id=1273842832]
 
