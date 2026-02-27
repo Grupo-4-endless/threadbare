@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c4uaxffa581ei"
+path="res://.godot/imported/amor_y_garras_outro.dialogue-5ddf2cdcb5bfc6e11abbfd12bd1db4d6.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/amor_y_garras/2_outro/outro_components/amor_y_garras_outro.dialogue"
+dest_files=["res://.godot/imported/amor_y_garras_outro.dialogue-5ddf2cdcb5bfc6e11abbfd12bd1db4d6.tres"]
+
+[params]
+
+defaults=true
